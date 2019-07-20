@@ -1,0 +1,32 @@
+<!-- TO RUN: http-server -c-1 from file directory 
+     followed tutorial from: https://www.youtube.com/watch?v=3EMxBkqC4z0&list=PLTs3u8ToiqTGEdi8yvInVlnOaU_7oGArY&index=2&t=276s 
+-->
+<html>
+
+<head>
+    <title>Brick Breaker</title>
+
+    <meta charset = "UTF-8" />
+
+    <style>
+        #gameScreen {
+            border: 1px solid black;
+        }
+
+        img {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="assets/images/ball.png" id="img_ball"  />
+    
+    <canvas id="gameScreen" width="800" height="600"></canvas>
+
+    <script type="module" src = "src/index.js"></script>
+
+</body>
+
+</html>
